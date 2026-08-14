@@ -1,0 +1,126 @@
+import type { Release } from '../types/release';
+
+export const RELEASES: Release[] = [
+  {
+    id: 'rel-stock-120',
+    productId: 'rob-personal-stock',
+    versionName: '1.2.0',
+    versionCode: 12,
+    releaseDate: '2026-08-15',
+    status: 'stable',
+    minimumAndroidVersion: 26,
+    apkUrl: 'https://github.com/robtech-limited/rob-personal-stock/releases/download/v1.2.0/RobPersonalStock-1.2.0.apk',
+    releasePageUrl: 'https://github.com/robtech-limited/rob-personal-stock/releases/tag/v1.2.0',
+    fileName: 'RobPersonalStock-1.2.0.apk',
+    fileSize: '14.7 MB',
+    mandatory: false,
+    changelog: {
+      en: [
+        'Added offline CSV data export and backup restoration.',
+        'Improved low-stock notification triggers for pantry items.',
+        'Enhanced camera barcode scanning performance on Android 14.',
+      ],
+      bn: [
+        'অফলাইন সিএসভি ডেটা এক্সপোর্ট এবং ব্যাকআপ রিস্টোর যুক্ত করা হয়েছে।',
+        'প্যান্ট্রি আইটেমের জন্য কম স্টকের নোটিফিকেশন সুবিধা উন্নত করা হয়েছে।',
+        'অ্যান্ড্রয়েড ১৪-এ ক্যামেরা বারকোড স্ক্যানিং গতি উন্নত করা হয়েছে।',
+      ],
+    },
+  },
+  {
+    id: 'rel-stock-110',
+    productId: 'rob-personal-stock',
+    versionName: '1.1.0',
+    versionCode: 11,
+    releaseDate: '2026-06-10',
+    status: 'stable',
+    minimumAndroidVersion: 26,
+    apkUrl: 'https://github.com/robtech-limited/rob-personal-stock/releases/download/v1.1.0/RobPersonalStock-1.1.0.apk',
+    releasePageUrl: 'https://github.com/robtech-limited/rob-personal-stock/releases/tag/v1.1.0',
+    fileName: 'RobPersonalStock-1.1.0.apk',
+    fileSize: '14.2 MB',
+    mandatory: false,
+    changelog: {
+      en: [
+        'Initial stable public release for Android.',
+        'Added category-based item filtering and search.',
+      ],
+      bn: [
+        'অ্যান্ড্রয়েডের জন্য প্রথম স্টেবল রিলিজ।',
+        'ক্যাটাগরি অনুযায়ী আইটেম ফিল্টারিং এবং সার্চ যুক্ত করা হয়েছে।',
+      ],
+    },
+  },
+  {
+    id: 'rel-music-201',
+    productId: 'rob-music-player',
+    versionName: '2.0.1',
+    versionCode: 20,
+    releaseDate: '2026-08-01',
+    status: 'stable',
+    minimumAndroidVersion: 24,
+    apkUrl: 'https://github.com/robtech-limited/rob-music-player/releases/download/v2.0.1/RobMusicPlayer-2.0.1.apk',
+    releasePageUrl: 'https://github.com/robtech-limited/rob-music-player/releases/tag/v2.0.1',
+    fileName: 'RobMusicPlayer-2.0.1.apk',
+    fileSize: '8.5 MB',
+    mandatory: false,
+    changelog: {
+      en: [
+        'Optimized audio decoding performance for FLAC & WAV formats.',
+        'Added lockscreen playback controls and notification artwork support.',
+      ],
+      bn: [
+        'ফ্ল্যাক এবং ওয়াভ ফরম্যাটের জন্য অডিও ডিকোডিং পারফরম্যান্স উন্নত করা হয়েছে।',
+        'লকস্ক্রিন প্লেব্যাক কন্ট্রোল এবং নোটিফিকেশন আর্টওয়ার্ক সুবিধা যুক্ত করা হয়েছে।',
+      ],
+    },
+  },
+  {
+    id: 'rel-drop-104',
+    productId: 'rob-drop-offline',
+    versionName: '1.0.4',
+    versionCode: 10,
+    releaseDate: '2026-07-20',
+    status: 'stable',
+    minimumAndroidVersion: 26,
+    apkUrl: 'https://github.com/robtech-limited/rob-drop-offline/releases/download/v1.0.4/RobDropOffline-1.0.4.apk',
+    releasePageUrl: 'https://github.com/robtech-limited/rob-drop-offline/releases/tag/v1.0.4',
+    fileName: 'RobDropOffline-1.0.4.apk',
+    fileSize: '6.2 MB',
+    mandatory: false,
+    changelog: {
+      en: [
+        'Enhanced local Wi-Fi Hotspot pairing speed between devices.',
+        'Added batch video file transfer resume capability.',
+      ],
+      bn: [
+        'ডিভাইসগুলোর মধ্যে লোকাল ওয়াই-ফাই হটস্পট পেয়ারিং স্পিড উন্নত করা হয়েছে।',
+        'ব্যাচ ভিডিও ফাইল ট্রান্সফার পুনরায় শুরু করার সুবিধা যুক্ত করা হয়েছে।',
+      ],
+    },
+  },
+  {
+    id: 'rel-war-090',
+    productId: 'rob-warranty-wallet',
+    versionName: '0.9.0-beta',
+    versionCode: 9,
+    releaseDate: '2026-07-15',
+    status: 'beta',
+    minimumAndroidVersion: 26,
+    apkUrl: 'https://github.com/robtech-limited/rob-warranty-wallet/releases/download/v0.9.0-beta/RobWarrantyWallet-0.9.0-beta.apk',
+    releasePageUrl: 'https://github.com/robtech-limited/rob-warranty-wallet/releases/tag/v0.9.0-beta',
+    fileName: 'RobWarrantyWallet-0.9.0-beta.apk',
+    fileSize: '11.1 MB',
+    mandatory: false,
+    changelog: {
+      en: [
+        'Beta preview release of digital receipt scanner and warranty organizer.',
+        'Automated local notification alert system 30 days prior to warranty expiration.',
+      ],
+      bn: [
+        'ডিজিটাল রসিদ স্ক্যানার এবং ওয়ারেন্টি সংগঠকের বিটা সংস্করণ।',
+        'ওয়ারেন্টির মেয়াদ শেষ হওয়ার ৩০ দিন আগে স্বয়ংক্রিয় নোটিফিকেশন অ্যালার্ট।',
+      ],
+    },
+  },
+];

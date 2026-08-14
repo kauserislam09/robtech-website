@@ -1,0 +1,134 @@
+{
+  "brand": {
+    "name": "RobTech Limited",
+    "shortName": "RobTech",
+    "tagline": "Technology Made Simple."
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "apps": "Apps",
+    "updates": "Updates",
+    "docs": "Documentation",
+    "support": "Support",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact"
+  },
+  "common": {
+    "download": "Download",
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "viewApp": "View App",
+    "exploreProducts": "Explore Products",
+    "exploreApps": "Explore Apps",
+    "openDocs": "Open Documentation",
+    "visitSupport": "Visit Support",
+    "contactUs": "Contact Us",
+    "goHome": "Go Home",
+    "version": "Version",
+    "releaseNotes": "Release Notes",
+    "status": "Status",
+    "all": "All",
+    "active": "Active",
+    "development": "In Development",
+    "archived": "Archived",
+    "stable": "Stable",
+    "beta": "Beta",
+    "deprecated": "Deprecated",
+    "tryAgain": "Try Again",
+    "submit": "Submit Message",
+    "sentSuccess": "Thank you! Your message has been submitted."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "select": "Language",
+    "en": "English",
+    "bn": "বাংলা"
+  },
+  "hero": {
+    "title": "Technology Made Simple.",
+    "subtitle": "RobTech builds practical technology products designed to make everyday tasks simpler, more reliable, and more accessible."
+  },
+  "principles": {
+    "title": "Our Core Principles",
+    "subtitle": "Built on values that prioritize user experience and simplicity.",
+    "simpleTitle": "Simple",
+    "simpleDesc": "Technology should be easy to understand and use for everyone, including senior citizens.",
+    "usefulTitle": "Useful",
+    "usefulDesc": "We focus on building products that solve real everyday problems without feature bloat.",
+    "reliableTitle": "Reliable",
+    "reliableDesc": "Our products prioritize stability, quality, and predictable offline performance.",
+    "accessibleTitle": "Accessible",
+    "accessibleDesc": "Designed with high contrast, large targets, and clean layouts for maximum readability.",
+    "privacyTitle": "Privacy-Conscious",
+    "privacyDesc": "We avoid unnecessary data collection and respect user privacy and offline control."
+  },
+  "home": {
+    "featuredProductsTitle": "Featured Products",
+    "featuredProductsDesc": "Explore RobTech's practical software catalog.",
+    "featuredAppsTitle": "Android Applications",
+    "featuredAppsDesc": "High performance mobile apps built for everyday efficiency.",
+    "updatesTitle": "Latest Updates",
+    "updatesDesc": "Track recent version releases and improvements.",
+    "viewAllUpdates": "View All Updates",
+    "docsTitle": "Need Help?",
+    "docsDesc": "Find installation guides, app documentation, troubleshooting information, and FAQs.",
+    "supportTitle": "Need Assistance?",
+    "supportDesc": "Find answers to common questions or get help with RobTech products.",
+    "ctaTitle": "Explore RobTech",
+    "ctaDesc": "Discover practical technology designed with simplicity in mind."
+  },
+  "productsPage": {
+    "title": "Products",
+    "description": "Explore RobTech's growing ecosystem of practical software products.",
+    "filterLabel": "Filter by Category:"
+  },
+  "appsPage": {
+    "title": "Android Applications",
+    "description": "Explore RobTech applications designed to make everyday tasks simpler, faster, and offline-capable."
+  },
+  "updatesPage": {
+    "title": "Updates & Release Notes",
+    "description": "Official update logs and release notes for RobTech applications."
+  },
+  "docsPage": {
+    "title": "Documentation",
+    "description": "Guides, installation steps, and technical specifications for RobTech software."
+  },
+  "supportPage": {
+    "title": "Support Center",
+    "description": "Answers to common questions and assistance for RobTech users."
+  },
+  "aboutPage": {
+    "title": "About RobTech Limited",
+    "description": "Learn about our approach, principles, and vision for technology."
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "description": "How RobTech protects user data and respects privacy."
+  },
+  "termsPage": {
+    "title": "Terms of Service",
+    "description": "Terms and conditions governing the use of RobTech products and services."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "description": "Get in touch with the RobTech team for inquiries, feedback, or support."
+  },
+  "empty": {
+    "title": "No updates available yet.",
+    "description": "There are currently no new release manifests in this section.",
+    "action": "Go Back"
+  },
+  "error": {
+    "title": "Something went wrong.",
+    "message": "Please try again or contact support if the problem persists.",
+    "retry": "Try Again"
+  }
+}

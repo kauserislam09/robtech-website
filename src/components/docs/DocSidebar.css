@@ -1,0 +1,97 @@
+.doc-sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4);
+}
+
+.doc-sidebar-mobile-toggle {
+  display: none;
+  margin-bottom: var(--space-4);
+}
+
+.doc-mobile-menu-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+@media (max-width: 900px) {
+  .doc-sidebar-mobile-toggle {
+    display: block;
+  }
+
+  .doc-sidebar {
+    display: none;
+    width: 100%;
+    margin-bottom: var(--space-4);
+  }
+
+  .doc-sidebar.doc-sidebar--mobile-open {
+    display: block;
+  }
+}
+
+.doc-sidebar__group {
+  margin-bottom: var(--space-5);
+}
+
+.doc-sidebar__group:last-child {
+  margin-bottom: 0;
+}
+
+.doc-sidebar__group-title {
+  display: block;
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-subtle);
+  margin-bottom: var(--space-2);
+  padding-left: var(--space-2);
+}
+
+.doc-sidebar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.doc-sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-medium);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+  min-height: 40px;
+}
+
+.doc-sidebar__link:hover {
+  background-color: var(--color-surface-secondary);
+  color: var(--color-text-primary);
+}
+
+.doc-sidebar__link.is-active {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-weight: var(--font-weight-semibold);
+}

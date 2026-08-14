@@ -1,0 +1,80 @@
+{
+  "appId": "rob-personal-stock",
+  "name": "Rob Personal Stock",
+  "latest": {
+    "versionCode": 12,
+    "versionName": "1.2.0",
+    "releaseDate": "2026-08-15",
+    "status": "stable",
+    "minimumAndroidVersion": 26,
+    "apkUrl": "https://github.com/robtech-limited/rob-personal-stock/releases/download/v1.2.0/RobPersonalStock-1.2.0.apk",
+    "releasePageUrl": "https://github.com/robtech-limited/rob-personal-stock/releases/tag/v1.2.0",
+    "fileName": "RobPersonalStock-1.2.0.apk",
+    "fileSize": "14.7 MB",
+    "mandatory": false
+  },
+  "releaseNotes": {
+    "en": [
+      "Added offline CSV data export and backup restoration.",
+      "Improved low-stock notification triggers for pantry items.",
+      "Enhanced camera barcode scanning performance on Android 14."
+    ],
+    "bn": [
+      "অফলাইন সিএসভি ডেটা এক্সপোর্ট এবং ব্যাকআপ রিস্টোর যুক্ত করা হয়েছে।",
+      "প্যান্ট্রি আইটেমের জন্য কম স্টকের নোটিফিকেশন সুবিধা উন্নত করা হয়েছে।",
+      "অ্যান্ড্রয়েড ১৪-এ ক্যামেরা বারকোড স্ক্যানিং গতি উন্নত করা হয়েছে।"
+    ]
+  },
+  "releases": [
+    {
+      "id": "rel-stock-120",
+      "productId": "rob-personal-stock",
+      "versionCode": 12,
+      "versionName": "1.2.0",
+      "releaseDate": "2026-08-15",
+      "status": "stable",
+      "minimumAndroidVersion": 26,
+      "apkUrl": "https://github.com/robtech-limited/rob-personal-stock/releases/download/v1.2.0/RobPersonalStock-1.2.0.apk",
+      "releasePageUrl": "https://github.com/robtech-limited/rob-personal-stock/releases/tag/v1.2.0",
+      "fileName": "RobPersonalStock-1.2.0.apk",
+      "fileSize": "14.7 MB",
+      "mandatory": false,
+      "changelog": {
+        "en": [
+          "Added offline CSV data export and backup restoration.",
+          "Improved low-stock notification triggers for pantry items.",
+          "Enhanced camera barcode scanning performance on Android 14."
+        ],
+        "bn": [
+          "অফলাইন সিএসভি ডেটা এক্সপোর্ট এবং ব্যাকআপ রিস্টোর যুক্ত করা হয়েছে।",
+          "প্যান্ট্রি আইটেমের জন্য কম স্টকের নোটিফিকেশন সুবিধা উন্নত করা হয়েছে।",
+          "অ্যান্ড্রয়েড ১৪-এ ক্যামেরা বারকোড স্ক্যানিং গতি উন্নত করা হয়েছে।"
+        ]
+      }
+    },
+    {
+      "id": "rel-stock-110",
+      "productId": "rob-personal-stock",
+      "versionCode": 11,
+      "versionName": "1.1.0",
+      "releaseDate": "2026-06-10",
+      "status": "stable",
+      "minimumAndroidVersion": 26,
+      "apkUrl": "https://github.com/robtech-limited/rob-personal-stock/releases/download/v1.1.0/RobPersonalStock-1.1.0.apk",
+      "releasePageUrl": "https://github.com/robtech-limited/rob-personal-stock/releases/tag/v1.1.0",
+      "fileName": "RobPersonalStock-1.1.0.apk",
+      "fileSize": "14.2 MB",
+      "mandatory": false,
+      "changelog": {
+        "en": [
+          "Initial stable public release for Android.",
+          "Added category-based item filtering and search."
+        ],
+        "bn": [
+          "অ্যান্ড্রয়েডের জন্য প্রথম স্টেবল রিলিজ।",
+          "ক্যাটাগরি অনুযায়ী আইটেম ফিল্টারিং এবং সার্চ যুক্ত করা হয়েছে।"
+        ]
+      }
+    }
+  ]
+}

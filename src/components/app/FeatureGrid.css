@@ -1,0 +1,35 @@
+.app-section {
+  margin-bottom: var(--space-8);
+}
+
+.app-section__title {
+  margin-bottom: var(--space-4);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.feature-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.feature-card__icon {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.feature-card__title {
+  font-size: var(--font-size-h4);
+  margin-bottom: var(--space-1);
+}
+
+.feature-card__desc {
+  font-size: var(--font-size-body-sm);
+  margin-bottom: 0;
+}

@@ -1,0 +1,20 @@
+.custom-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast), text-decoration-thickness var(--transition-fast);
+}
+
+.custom-link:hover {
+  color: var(--color-primary-hover);
+  text-decoration-thickness: 2px;
+}
+
+.custom-link__external-icon {
+  flex-shrink: 0;
+  opacity: 0.85;
+}

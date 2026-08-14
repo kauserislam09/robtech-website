@@ -1,0 +1,33 @@
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+  background-color: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-xl);
+  margin: var(--space-4) 0;
+}
+
+.empty-state__icon {
+  color: var(--color-text-subtle);
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-state__title {
+  margin-bottom: var(--space-2);
+}
+
+.empty-state__desc {
+  max-width: 480px;
+  margin-bottom: var(--space-5);
+}
+
+.empty-state__action {
+  margin-top: var(--space-2);
+}

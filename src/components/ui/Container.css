@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+  }
+}
+
+.container--sm { max-width: 640px; }
+.container--md { max-width: 896px; }
+.container--lg { max-width: 1152px; }
+.container--xl { max-width: 1344px; }
+.container--full { max-width: 100%; }

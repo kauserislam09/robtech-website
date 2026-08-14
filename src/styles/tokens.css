@@ -1,0 +1,108 @@
+:root {
+  /* Brand Primary Colors (WCAG 2.2 AA compliant contrast) */
+  --color-primary: #0284c7;
+  --color-primary-hover: #0369a1;
+  --color-primary-active: #075985;
+  --color-primary-light: #e0f2fe;
+  --color-primary-dark: #0c4a6e;
+
+  /* Status Colors */
+  --color-success: #15803d;
+  --color-success-light: #dcfce7;
+  --color-warning: #b45309;
+  --color-warning-light: #fef3c7;
+  --color-error: #b91c1c;
+  --color-error-light: #fee2e2;
+  --color-info: #0369a1;
+  --color-info-light: #e0f2fe;
+
+  /* Light Theme Surfaces & Text */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f1f5f9;
+  --color-border: #cbd5e1;
+  --color-border-subtle: #e2e8f0;
+  --color-text-primary: #0f172a;
+  --color-text-muted: #334155;
+  --color-text-subtle: #64748b;
+
+  /* Typography Scale */
+  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-bangla: "Hind Siliguri", "Noto Sans Bengali", "SolaimanLipi", "Kalpurush", sans-serif;
+
+  --font-size-display: clamp(2rem, 4vw, 3rem);
+  --font-size-h1: clamp(1.75rem, 3.2vw, 2.25rem);
+  --font-size-h2: clamp(1.35rem, 2.5vw, 1.75rem);
+  --font-size-h3: clamp(1.15rem, 2vw, 1.35rem);
+  --font-size-h4: 1.1rem;
+  --font-size-body-lg: 1.125rem;
+  --font-size-body: 1rem;
+  --font-size-body-sm: 0.875rem;
+  --font-size-caption: 0.75rem;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-base: 1.6;
+  --line-height-heading: 1.25;
+  --line-height-bangla: 1.75;
+
+  /* Spacing Scale (8px system) */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem;  /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem;    /* 16px */
+  --space-5: 1.5rem;  /* 24px */
+  --space-6: 2rem;    /* 32px */
+  --space-7: 2.5rem;  /* 40px */
+  --space-8: 3rem;    /* 48px */
+  --space-9: 4rem;    /* 64px */
+  --space-10: 5rem;   /* 80px */
+  --space-11: 6rem;   /* 96px */
+
+  /* Touch Target Standard */
+  --touch-target-min: 44px;
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-pill: 9999px;
+
+  /* Transitions & Shadows */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+  /* Focus Ring */
+  --focus-ring: 3px solid var(--color-primary);
+  --focus-ring-offset: 2px;
+}
+
+/* Dark Theme Overrides */
+[data-theme="dark"] {
+  --color-primary: #38bdf8;
+  --color-primary-hover: #7dd3fc;
+  --color-primary-active: #bae6fd;
+  --color-primary-light: #0c4a6e;
+  --color-primary-dark: #e0f2fe;
+
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-surface-secondary: #334155;
+  --color-border: #475569;
+  --color-border-subtle: #334155;
+  --color-text-primary: #f8fafc;
+  --color-text-muted: #cbd5e1;
+  --color-text-subtle: #94a3b8;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+}

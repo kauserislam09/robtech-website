@@ -1,0 +1,52 @@
+{
+  "appId": "rob-warranty-wallet",
+  "name": "Rob Warranty Wallet",
+  "latest": {
+    "versionCode": 9,
+    "versionName": "0.9.0-beta",
+    "releaseDate": "2026-07-15",
+    "status": "beta",
+    "minimumAndroidVersion": 26,
+    "apkUrl": "https://github.com/robtech-limited/rob-warranty-wallet/releases/download/v0.9.0-beta/RobWarrantyWallet-0.9.0-beta.apk",
+    "releasePageUrl": "https://github.com/robtech-limited/rob-warranty-wallet/releases/tag/v0.9.0-beta",
+    "fileName": "RobWarrantyWallet-0.9.0-beta.apk",
+    "fileSize": "11.1 MB",
+    "mandatory": false
+  },
+  "releaseNotes": {
+    "en": [
+      "Beta preview release of digital receipt scanner and warranty organizer.",
+      "Automated local notification alert system 30 days prior to warranty expiration."
+    ],
+    "bn": [
+      "ডিজিটাল রসিদ স্ক্যানার এবং ওয়ারেন্টি সংগঠকের বিটা সংস্করণ।",
+      "ওয়ারেন্টির মেয়াদ শেষ হওয়ার ৩০ দিন আগে স্বয়ংক্রিয় নোটিফিকেশন অ্যালার্ট।"
+    ]
+  },
+  "releases": [
+    {
+      "id": "rel-war-090",
+      "productId": "rob-warranty-wallet",
+      "versionCode": 9,
+      "versionName": "0.9.0-beta",
+      "releaseDate": "2026-07-15",
+      "status": "beta",
+      "minimumAndroidVersion": 26,
+      "apkUrl": "https://github.com/robtech-limited/rob-warranty-wallet/releases/download/v0.9.0-beta/RobWarrantyWallet-0.9.0-beta.apk",
+      "releasePageUrl": "https://github.com/robtech-limited/rob-warranty-wallet/releases/tag/v0.9.0-beta",
+      "fileName": "RobWarrantyWallet-0.9.0-beta.apk",
+      "fileSize": "11.1 MB",
+      "mandatory": false,
+      "changelog": {
+        "en": [
+          "Beta preview release of digital receipt scanner and warranty organizer.",
+          "Automated local notification alert system 30 days prior to warranty expiration."
+        ],
+        "bn": [
+          "ডিজিটাল রসিদ স্ক্যানার এবং ওয়ারেন্টি সংগঠকের বিটা সংস্করণ।",
+          "ওয়ারেন্টির মেয়াদ শেষ হওয়ার ৩০ দিন আগে স্বয়ংক্রিয় নোটিফিকেশন অ্যালার্ট।"
+        ]
+      }
+    }
+  ]
+}

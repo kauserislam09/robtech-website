@@ -1,0 +1,25 @@
+{
+  "appId": "rob-house-rental",
+  "name": "Rob House Rental",
+  "latest": {
+    "versionCode": 5,
+    "versionName": "0.5.0-dev",
+    "releaseDate": "2026-06-01",
+    "status": "development",
+    "minimumAndroidVersion": 26,
+    "apkUrl": null,
+    "releasePageUrl": null,
+    "fileName": null,
+    "fileSize": null,
+    "mandatory": false
+  },
+  "releaseNotes": {
+    "en": [
+      "Initial development build of tenant management and rent due tracking system."
+    ],
+    "bn": [
+      "ভাড়াটিয়া ও ভাড়ার হিসাব ট্র্যাকিং সিস্টেমের প্রাথমিক উন্নয়নমূলক রিলিজ।"
+    ]
+  },
+  "releases": []
+}

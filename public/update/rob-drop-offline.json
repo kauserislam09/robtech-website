@@ -1,0 +1,52 @@
+{
+  "appId": "rob-drop-offline",
+  "name": "Rob Drop Offline",
+  "latest": {
+    "versionCode": 10,
+    "versionName": "1.0.4",
+    "releaseDate": "2026-07-20",
+    "status": "stable",
+    "minimumAndroidVersion": 26,
+    "apkUrl": "https://github.com/robtech-limited/rob-drop-offline/releases/download/v1.0.4/RobDropOffline-1.0.4.apk",
+    "releasePageUrl": "https://github.com/robtech-limited/rob-drop-offline/releases/tag/v1.0.4",
+    "fileName": "RobDropOffline-1.0.4.apk",
+    "fileSize": "6.2 MB",
+    "mandatory": false
+  },
+  "releaseNotes": {
+    "en": [
+      "Enhanced local Wi-Fi Hotspot pairing speed between devices.",
+      "Added batch video file transfer resume capability."
+    ],
+    "bn": [
+      "ডিভাইসগুলোর মধ্যে লোকাল ওয়াই-ফাই হটস্পট পেয়ারিং স্পিড উন্নত করা হয়েছে।",
+      "ব্যাচ ভিডিও ফাইল ট্রান্সফার পুনরায় শুরু করার সুবিধা যুক্ত করা হয়েছে।"
+    ]
+  },
+  "releases": [
+    {
+      "id": "rel-drop-104",
+      "productId": "rob-drop-offline",
+      "versionCode": 10,
+      "versionName": "1.0.4",
+      "releaseDate": "2026-07-20",
+      "status": "stable",
+      "minimumAndroidVersion": 26,
+      "apkUrl": "https://github.com/robtech-limited/rob-drop-offline/releases/download/v1.0.4/RobDropOffline-1.0.4.apk",
+      "releasePageUrl": "https://github.com/robtech-limited/rob-drop-offline/releases/tag/v1.0.4",
+      "fileName": "RobDropOffline-1.0.4.apk",
+      "fileSize": "6.2 MB",
+      "mandatory": false,
+      "changelog": {
+        "en": [
+          "Enhanced local Wi-Fi Hotspot pairing speed between devices.",
+          "Added batch video file transfer resume capability."
+        ],
+        "bn": [
+          "ডিভাইসগুলোর মধ্যে লোকাল ওয়াই-ফাই হটস্পট পেয়ারিং স্পিড উন্নত করা হয়েছে।",
+          "ব্যাচ ভিডিও ফাইল ট্রান্সফার পুনরায় শুরু করার সুবিধা যুক্ত করা হয়েছে।"
+        ]
+      }
+    }
+  ]
+}

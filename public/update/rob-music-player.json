@@ -1,0 +1,52 @@
+{
+  "appId": "rob-music-player",
+  "name": "RobMusicPlayer",
+  "latest": {
+    "versionCode": 20,
+    "versionName": "2.0.1",
+    "releaseDate": "2026-08-01",
+    "status": "stable",
+    "minimumAndroidVersion": 24,
+    "apkUrl": "https://github.com/robtech-limited/rob-music-player/releases/download/v2.0.1/RobMusicPlayer-2.0.1.apk",
+    "releasePageUrl": "https://github.com/robtech-limited/rob-music-player/releases/tag/v2.0.1",
+    "fileName": "RobMusicPlayer-2.0.1.apk",
+    "fileSize": "8.5 MB",
+    "mandatory": false
+  },
+  "releaseNotes": {
+    "en": [
+      "Optimized audio decoding performance for FLAC & WAV formats.",
+      "Added lockscreen playback controls and notification artwork support."
+    ],
+    "bn": [
+      "ফ্ল্যাক এবং ওয়াভ ফরম্যাটের জন্য অডিও ডিকোডিং পারফরম্যান্স উন্নত করা হয়েছে।",
+      "লকস্ক্রিন প্লেব্যাক কন্ট্রোল এবং নোটিফিকেশন আর্টওয়ার্ক সুবিধা যুক্ত করা হয়েছে।"
+    ]
+  },
+  "releases": [
+    {
+      "id": "rel-music-201",
+      "productId": "rob-music-player",
+      "versionCode": 20,
+      "versionName": "2.0.1",
+      "releaseDate": "2026-08-01",
+      "status": "stable",
+      "minimumAndroidVersion": 24,
+      "apkUrl": "https://github.com/robtech-limited/rob-music-player/releases/download/v2.0.1/RobMusicPlayer-2.0.1.apk",
+      "releasePageUrl": "https://github.com/robtech-limited/rob-music-player/releases/tag/v2.0.1",
+      "fileName": "RobMusicPlayer-2.0.1.apk",
+      "fileSize": "8.5 MB",
+      "mandatory": false,
+      "changelog": {
+        "en": [
+          "Optimized audio decoding performance for FLAC & WAV formats.",
+          "Added lockscreen playback controls and notification artwork support."
+        ],
+        "bn": [
+          "ফ্ল্যাক এবং ওয়াভ ফরম্যাটের জন্য অডিও ডিকোডিং পারফরম্যান্স উন্নত করা হয়েছে।",
+          "লকস্ক্রিন প্লেব্যাক কন্ট্রোল এবং নোটিফিকেশন আর্টওয়ার্ক সুবিধা যুক্ত করা হয়েছে।"
+        ]
+      }
+    }
+  ]
+}

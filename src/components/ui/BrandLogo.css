@@ -1,0 +1,75 @@
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  user-select: none;
+  text-decoration: none;
+}
+
+.brand-logo__mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+  color: var(--color-primary-contrast);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+
+.brand-logo__mark-dot {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-primary-contrast);
+  border-radius: var(--radius-pill);
+}
+
+.brand-logo--sm .brand-logo__mark {
+  width: 32px;
+  height: 32px;
+  font-size: 1.125rem;
+}
+
+.brand-logo--md .brand-logo__mark {
+  width: 40px;
+  height: 40px;
+  font-size: 1.35rem;
+}
+
+.brand-logo--lg .brand-logo__mark {
+  width: 52px;
+  height: 52px;
+  font-size: 1.85rem;
+}
+
+.brand-logo__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-logo__name {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.brand-logo--sm .brand-logo__name { font-size: 1.125rem; }
+.brand-logo--md .brand-logo__name { font-size: 1.35rem; }
+.brand-logo--lg .brand-logo__name { font-size: 1.85rem; }
+
+.brand-logo__accent {
+  color: var(--color-primary);
+}
+
+.brand-logo__tagline {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-muted);
+  font-weight: var(--font-weight-normal);
+  letter-spacing: 0.01em;
+}
