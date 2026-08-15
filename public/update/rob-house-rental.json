@@ -2,24 +2,53 @@
   "appId": "rob-house-rental",
   "name": "Rob House Rental",
   "latest": {
-    "versionCode": 5,
-    "versionName": "0.5.0-dev",
-    "releaseDate": "2026-06-01",
-    "status": "development",
+    "versionCode": 10,
+    "versionName": "1.0.0",
+    "releaseDate": "2026-08-15",
+    "status": "stable",
     "minimumAndroidVersion": 26,
-    "apkUrl": null,
-    "releasePageUrl": null,
-    "fileName": null,
-    "fileSize": null,
+    "apkUrl": "https://github.com/kauserislam09/Rob-House-Rental/releases/download/v1.0.0/app-release.apk",
+    "releasePageUrl": "https://github.com/kauserislam09/Rob-House-Rental/releases/tag/v1.0.0",
+    "fileName": "RobHouseRental-v1.0.0.apk",
+    "fileSize": "9.8 MB",
     "mandatory": false
   },
   "releaseNotes": {
     "en": [
-      "Initial development build of tenant management and rent due tracking system."
+      "Official v1.0.0 Release.",
+      "Material 3 UI upgrades and vector icon badges.",
+      "Full tenant & monthly rent log management.",
+      "Complete Bangla localization."
     ],
     "bn": [
-      "ভাড়াটিয়া ও ভাড়ার হিসাব ট্র্যাকিং সিস্টেমের প্রাথমিক উন্নয়নমূলক রিলিজ।"
+      "অফিসিয়াল v১.০.০ রিলিজ।",
+      "মেটেরিয়াল ৩ ইউআই এবং ভেক্টর আইকন ব্যাজ আপডেট।",
+      "ভাড়াটিয়া এবং মাসিক ভাড়ার সম্পূর্ণ হিসাব ব্যবস্থাপনা।",
+      "সম্পূর্ণ বাংলা ভাষা সাপোর্ট।"
     ]
   },
-  "releases": []
+  "releases": [
+    {
+      "versionCode": 10,
+      "versionName": "1.0.0",
+      "releaseDate": "2026-08-15",
+      "status": "stable",
+      "apkUrl": "https://github.com/kauserislam09/Rob-House-Rental/releases/download/v1.0.0/app-release.apk",
+      "releasePageUrl": "https://github.com/kauserislam09/Rob-House-Rental/releases/tag/v1.0.0",
+      "changelog": {
+        "en": [
+          "Official v1.0.0 Release.",
+          "Material 3 UI upgrades and vector icon badges.",
+          "Full tenant & monthly rent log management.",
+          "Complete Bangla localization."
+        ],
+        "bn": [
+          "অফিসিয়াল v১.০.০ রিলিজ।",
+          "মেটেরিয়াল ৩ ইউআই এবং ভেক্টর আইকন ব্যাজ আপডেট।",
+          "ভাড়াটিয়া এবং মাসিক ভাড়ার সম্পূর্ণ হিসাব ব্যবস্থাপনা।",
+          "সম্পূর্ণ বাংলা ভাষা সাপোর্ট।"
+        ]
+      }
+    }
+  ]
 }
