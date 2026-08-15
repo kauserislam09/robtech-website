@@ -18,3 +18,10 @@
   flex-shrink: 0;
   opacity: 0.85;
 }
+
+/* Reset anchor styling when Link wraps a Button component */
+a.custom-link:has(.btn),
+a.custom-link:hover:has(.btn) {
+  text-decoration: none !important;
+  color: inherit !important;
+}

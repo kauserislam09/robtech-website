@@ -43,7 +43,7 @@ export const AppsPage: React.FC = () => {
 
       <div className="products-grid">
         {androidApps.map((app) => (
-          <Card key={app.id} variant="featured" padding="md" className="product-card">
+          <Card key={app.id} variant="interactive" padding="md" className="product-card">
             <div className="product-card__header">
               <Typography variant="h3">{app.name}</Typography>
               <Badge preset="android" />
