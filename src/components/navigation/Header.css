@@ -1,11 +1,13 @@
 .site-header {
-  background-color: var(--color-surface);
-  border-bottom: 1px solid var(--color-border-subtle);
+  background-color: var(--color-glass-bg);
+  backdrop-filter: var(--blur-header);
+  -webkit-backdrop-filter: var(--blur-header);
+  border-bottom: 1px solid var(--color-glass-border);
   position: sticky;
   top: 0;
   z-index: 100;
   box-shadow: var(--shadow-sm);
-  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .site-header__container {
@@ -19,6 +21,11 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: transform var(--transition-fast);
+}
+
+.site-header__brand-link:hover {
+  transform: translateY(-1px);
 }
 
 /* Desktop Navigation */
@@ -35,22 +42,23 @@
 .desktop-nav__list {
   display: flex;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-2);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .desktop-nav__link {
+  position: relative;
   display: inline-flex;
   align-items: center;
   padding: var(--space-2) var(--space-3);
-  font-size: var(--font-size-nav);
+  font-size: var(--font-size-body-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-muted);
   text-decoration: none;
   border-radius: var(--radius-md);
-  transition: color var(--transition-fast), background-color var(--transition-fast);
+  transition: color var(--transition-fast), background-color var(--transition-fast), transform var(--transition-fast);
   min-height: 40px;
 }
 
@@ -63,6 +71,17 @@
   color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
   background-color: var(--color-primary-light);
+}
+
+.desktop-nav__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  right: 12px;
+  height: 2px;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-pill);
 }
 
 /* Actions (Desktop) */
@@ -81,11 +100,12 @@
 .header-control-group {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
   background-color: var(--color-bg);
-  padding: 2px 4px;
-  border-radius: var(--radius-md);
+  padding: 4px 6px;
+  border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
 }
 
 .header-control-group__icon {
@@ -97,7 +117,7 @@
 .header-btn-group {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
 }
 
 /* Mobile Trigger */
